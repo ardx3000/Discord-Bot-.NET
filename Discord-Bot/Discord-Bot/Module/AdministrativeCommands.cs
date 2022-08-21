@@ -6,7 +6,7 @@ namespace Discord_Bot.Module;
 
 public class AdministrativeCommands : ModuleBase<SocketCommandContext>
 {
-    
+    //Add the user who executed the command . . . to all administrative methods
 
     private TimeAndDate TnD = new TimeAndDate();
     
