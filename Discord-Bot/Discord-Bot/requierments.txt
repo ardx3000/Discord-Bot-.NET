@@ -1,0 +1,28 @@
+﻿Requierments list.
+
+-Administration: 
+    Get User details
+    Manage users
+    Crate profile for each user
+    
+-Competitive games:
+    Create a a command where players can have a local rank in that specific discord server
+    Games will be the type of duel or challenge
+    Solo or forming a team 
+    Win rank points
+    Leaderboards
+    
+-Profil user:
+    Show the active games with ranks
+    Show the current points for each ranked game
+    Show the the leaderboard standings for each game
+    
+-Events:
+    Create event
+    Events reminder
+    
+
+
+
+-Cacaturi de am nevoie de ele:
+        var token = Environment.GetEnvironmentVariable(".env");
