@@ -43,7 +43,7 @@ public class Program
 
         await _client.LoginAsync(TokenType.Bot, token);
 
-        await _client.SetGameAsync("In development , use .help for command list");
+        await _client.SetGameAsync("In development , use .help for commands list");
 
         await _client.StartAsync();
 

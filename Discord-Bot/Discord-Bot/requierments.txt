@@ -26,3 +26,10 @@
 
 -Cacaturi de am nevoie de ele:
         var token = Environment.GetEnvironmentVariable(".env");
+        
+        
+        
+        I am Ardx Bot V2 developed by Ardx3000 in .NET.
+        My main function is to provide a competitive environment in different discord servers where players can challenge each other to different games and gain elo points.
+        I do provide administration functionalities as well.
+        I am still in development.
