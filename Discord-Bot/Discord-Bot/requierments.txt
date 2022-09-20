@@ -21,7 +21,14 @@
     Create event
     Events reminder
     
+S
 
+-To do list:
+    Create a class that is able to handle JSAON:
+        Create profiles with all the users in the dsicord
+        Retrive a specific user
+        Update a user
+ 
 
 
 -Cacaturi de am nevoie de ele:

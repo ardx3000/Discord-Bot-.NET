@@ -12,29 +12,7 @@ public class UserProfile : ModuleBase<SocketCommandContext>
     
     
     [Command("show profile")]
-    private async Task Profile()
-    {
-        
-        int points = 100;
-        var DiscordUser = socketMessage.Author;
-
-        var EmbedBuilderUserProfile = new EmbedBuilder().WithTitle(DiscordUser.Username)
-            .WithDescription("Points:" + points)
-            .WithImageUrl(DiscordUser.GetAvatarUrl())
-            .WithFooter(footer =>
-            {
-                footer
-                    .WithText("User: " + DiscordUser + " " + "Requested at: " + " " + TnD.Time);
-            });
-
-        Embed embedUP = EmbedBuilderUserProfile.Build();
-        
-        await ReplyAsync(embed: embedUP);
-
-    }
-
-    [Command("spt")]
-    private async Task ProfileTest(IGuildUser user = null)
+    private async Task ShowProfile(IGuildUser user = null)
     {
         if (user == null)
         {
@@ -51,6 +29,7 @@ public class UserProfile : ModuleBase<SocketCommandContext>
             {
                 footer.WithText("User: " + user + " " + "Requested at: " + TnD.Time);
             });
+        
         Embed embedUP = EmbedBuilderUserProfile.Build();
         await ReplyAsync(embed: embedUP);
     }
