@@ -16,6 +16,7 @@ public class JSONAdministration
 
     public async Task JSONTest(string name) // Does not work , resaults in 16 .....
     {
+        //add file handler
         string fileName = "Test.json";
         string Jname = name;
 

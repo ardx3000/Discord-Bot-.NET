@@ -13,6 +13,7 @@ public class UserProfile : ModuleBase<SocketCommandContext>
     private SocketMessage socketMessage;
     private TimeAndDate TnD = new TimeAndDate();
     private  JSONAdministration test = new JSONAdministration();
+    
     private int points = 100;
     
     [Command("show profile")]
